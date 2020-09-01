@@ -1,0 +1,2 @@
+List of Crusader Kings III triggers, modifiers, effects, event scopes, event targets, on actions, code revisions and setup.log for most game versions since launch.
+Use GitHub file history feature to compare_versions.
