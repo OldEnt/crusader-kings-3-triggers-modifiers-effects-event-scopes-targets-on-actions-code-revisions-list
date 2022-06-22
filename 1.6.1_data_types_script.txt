@@ -1,0 +1,1341 @@
+DATE
+Description: Jomini Date
+Definition type: Global promote
+Return type: Date
+
+-----------------------
+
+DATE_MAX
+Description: Jomini Date - Max
+Definition type: Global promote
+Return type: Date
+
+-----------------------
+
+DATE_MIN
+Description: Jomini Date - Min
+Definition type: Global promote
+Return type: Date
+
+-----------------------
+
+EmptyScope
+Definition type: Global promote
+Return type: TopScope
+
+-----------------------
+
+GetGlobalVariable( Arg0 )
+Definition type: Global promote
+Return type: Scope
+
+-----------------------
+
+PREV
+Description: Script Scope
+Definition type: Global promote
+Return type: Scope
+
+-----------------------
+
+ROOT
+Description: Script Scope
+Definition type: Global promote
+Return type: Scope
+
+-----------------------
+
+SCOPE
+Description: Script Scope
+Definition type: Global promote
+Return type: TopScope
+
+-----------------------
+
+THIS
+Description: Script Scope
+Definition type: Global promote
+Return type: Scope
+
+-----------------------
+
+GetGlobalList( Arg0 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetGlobalVariable( Arg0 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetVarTimeRemaining( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+MakeScopeBool( Arg0 )
+Definition type: Global function
+Return type: Scope
+
+-----------------------
+
+MakeScopeFlag( Arg0 )
+Definition type: Global function
+Return type: Scope
+
+-----------------------
+
+MakeScopeValue( Arg0 )
+Definition type: Global function
+Return type: Scope
+
+-----------------------
+
+ActiveCouncilTask
+Definition type: Type
+
+-----------------------
+
+ActiveCouncilTask.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Activity
+Definition type: Type
+
+-----------------------
+
+Activity.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Army
+Definition type: Type
+
+-----------------------
+
+Army.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Artifact
+Definition type: Type
+
+-----------------------
+
+Artifact.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Character
+Definition type: Type
+
+-----------------------
+
+Character.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Combat
+Definition type: Type
+
+-----------------------
+
+Combat.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Container
+Definition type: Type
+
+-----------------------
+
+Container.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Container.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Culture
+Definition type: Type
+
+-----------------------
+
+Culture.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Dynasty
+Definition type: Type
+
+-----------------------
+
+Dynasty.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+DynastyHouse
+Definition type: Type
+
+-----------------------
+
+DynastyHouse.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Faction
+Definition type: Type
+
+-----------------------
+
+Faction.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Faith
+Definition type: Type
+
+-----------------------
+
+Faith.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+GreatHolyWar
+Definition type: Type
+
+-----------------------
+
+GreatHolyWar.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+HolyOrder
+Definition type: Type
+
+-----------------------
+
+HolyOrder.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Inspiration
+Definition type: Type
+
+-----------------------
+
+Inspiration.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+MercenaryCompany
+Definition type: Type
+
+-----------------------
+
+MercenaryCompany.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Province
+Definition type: Type
+
+-----------------------
+
+Province.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Religion
+Definition type: Type
+
+-----------------------
+
+Religion.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Scheme
+Definition type: Type
+
+-----------------------
+
+Scheme.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Scope
+Definition type: Type
+
+-----------------------
+
+Scope.Activity
+Description: Jomini Script System
+Definition type: Promote
+Return type: Activity
+
+-----------------------
+
+Scope.Army
+Description: Jomini Script System
+Definition type: Promote
+Return type: Army
+
+-----------------------
+
+Scope.Artifact
+Description: Jomini Script System
+Definition type: Promote
+Return type: Artifact
+
+-----------------------
+
+Scope.CasusBelli
+Description: Jomini Script System
+Definition type: Promote
+Return type: ActiveCasusBelli
+
+-----------------------
+
+Scope.Char
+Description: Jomini Script System
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+Scope.Combat
+Description: Jomini Script System
+Definition type: Promote
+Return type: Combat
+
+-----------------------
+
+Scope.CombatSide
+Description: Jomini Script System
+Definition type: Promote
+Return type: CombatSide
+
+-----------------------
+
+Scope.CouncilTask
+Description: Jomini Script System
+Definition type: Promote
+Return type: ActiveCouncilTask
+
+-----------------------
+
+Scope.Culture
+Description: Jomini Script System
+Definition type: Promote
+Return type: Culture
+
+-----------------------
+
+Scope.Dynasty
+Description: Jomini Script System
+Definition type: Promote
+Return type: Dynasty
+
+-----------------------
+
+Scope.Faction
+Description: Jomini Script System
+Definition type: Promote
+Return type: Faction
+
+-----------------------
+
+Scope.Faith
+Description: Jomini Script System
+Definition type: Promote
+Return type: Faith
+
+-----------------------
+
+Scope.GetActivity
+Description: Jomini Script System
+Definition type: Promote
+Return type: Activity
+
+-----------------------
+
+Scope.GetCharacter
+Description: Jomini Script System
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+Scope.GetLandedTitle
+Description: Jomini Script System
+Definition type: Promote
+Return type: Title
+
+-----------------------
+
+Scope.GetProvince
+Description: Jomini Script System
+Definition type: Promote
+Return type: Province
+
+-----------------------
+
+Scope.GetScheme
+Description: Jomini Script System
+Definition type: Promote
+Return type: Scheme
+
+-----------------------
+
+Scope.GetVariable( Arg0 )
+Definition type: Promote
+Return type: Scope
+
+-----------------------
+
+Scope.GreatHolyWar
+Description: Jomini Script System
+Definition type: Promote
+Return type: GreatHolyWar
+
+-----------------------
+
+Scope.HolyOrder
+Description: Jomini Script System
+Definition type: Promote
+Return type: HolyOrder
+
+-----------------------
+
+Scope.House
+Description: Jomini Script System
+Definition type: Promote
+Return type: DynastyHouse
+
+-----------------------
+
+Scope.Inspiration
+Description: Jomini Script System
+Definition type: Promote
+Return type: Inspiration
+
+-----------------------
+
+Scope.MercenaryCompany
+Description: Jomini Script System
+Definition type: Promote
+Return type: MercenaryCompany
+
+-----------------------
+
+Scope.Province
+Description: Jomini Script System
+Definition type: Promote
+Return type: Province
+
+-----------------------
+
+Scope.Religion
+Description: Jomini Script System
+Definition type: Promote
+Return type: Religion
+
+-----------------------
+
+Scope.Scheme
+Description: Jomini Script System
+Definition type: Promote
+Return type: Scheme
+
+-----------------------
+
+Scope.Secret
+Description: Jomini Script System
+Definition type: Promote
+Return type: Secret
+
+-----------------------
+
+Scope.Story
+Description: Jomini Script System
+Definition type: Promote
+Return type: Story
+
+-----------------------
+
+Scope.Struggle
+Description: Jomini Script System
+Definition type: Promote
+Return type: Struggle
+
+-----------------------
+
+Scope.Title
+Description: Jomini Script System
+Definition type: Promote
+Return type: Title
+
+-----------------------
+
+Scope.Var( Arg0 )
+Definition type: Promote
+Return type: Scope
+
+-----------------------
+
+Scope.War
+Description: Jomini Script System
+Definition type: Promote
+Return type: War
+
+-----------------------
+
+Scope.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Activity
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Army
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Artifact
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.CasusBelli
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Char
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Combat
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.CombatSide
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.CouncilTask
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Culture
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Dynasty
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Faction
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Faith
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetActivity
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetCharacter
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetFlagName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Scope.GetLandedTitle
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetList( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetProvince
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetScheme
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.GetScriptValueDesc( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Scope.GetValue
+Definition type: Function
+Return type: CFixedPoint
+
+-----------------------
+
+Scope.GetValueWithDefault( Arg0 )
+Definition type: Function
+Return type: CFixedPoint
+
+-----------------------
+
+Scope.GreatHolyWar
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.HolyOrder
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.House
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Inspiration
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.IsSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Scope.MercenaryCompany
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Province
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Religion
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Scheme
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.ScriptValue( Arg0 )
+Definition type: Function
+Return type: CFixedPoint
+
+-----------------------
+
+Scope.Secret
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Story
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Struggle
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.Title
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Scope.VarRemaining( Arg0 )
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Scope.War
+Description: Jomini Script System
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ScriptedGui
+Definition type: Type
+
+-----------------------
+
+ScriptedGui.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ScriptedGui.BuildTooltip( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+ScriptedGui.Execute( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ScriptedGui.ExecuteTooltip( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+ScriptedGui.IsShown( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ScriptedGui.IsShownTooltip( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+ScriptedGui.IsValid( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ScriptedGui.IsValidTooltip( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+ScriptedGui.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Secret
+Definition type: Type
+
+-----------------------
+
+Secret.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Story
+Definition type: Type
+
+-----------------------
+
+Story.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Struggle
+Definition type: Type
+
+-----------------------
+
+Struggle.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+Title
+Definition type: Type
+
+-----------------------
+
+Title.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
+TopScope
+Definition type: Type
+
+-----------------------
+
+TopScope.AddList( Arg0, Arg1 )
+Definition type: Promote
+Return type: TopScope
+
+-----------------------
+
+TopScope.AddScope( Arg0, Arg1 )
+Definition type: Promote
+Return type: TopScope
+
+-----------------------
+
+TopScope.GetDecisionFromEventTargetFlag( Arg0 )
+Definition type: Promote
+Return type: Decision
+
+-----------------------
+
+TopScope.GetRootScope
+Definition type: Promote
+Return type: Scope
+
+-----------------------
+
+TopScope.GetScriptValueBreakdown( Arg0 )
+Definition type: Promote
+Return type: ValueBreakdown
+
+-----------------------
+
+TopScope.SetRoot( Arg0 )
+Definition type: Promote
+Return type: TopScope
+
+-----------------------
+
+TopScope.event_target:actor
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:agent
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:duel_target
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:recipient
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:scheme
+Definition type: Promote
+Return type: Scheme
+
+-----------------------
+
+TopScope.sActivity( Arg0 )
+Definition type: Promote
+Return type: Activity
+
+-----------------------
+
+TopScope.sArmy( Arg0 )
+Definition type: Promote
+Return type: Army
+
+-----------------------
+
+TopScope.sC( Arg0 )
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+TopScope.sCB( Arg0 )
+Definition type: Promote
+Return type: ActiveCasusBelli
+
+-----------------------
+
+TopScope.sCharacter( Arg0 )
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+TopScope.sCombat( Arg0 )
+Definition type: Promote
+Return type: Combat
+
+-----------------------
+
+TopScope.sCombatSide( Arg0 )
+Definition type: Promote
+Return type: CombatSide
+
+-----------------------
+
+TopScope.sCulture( Arg0 )
+Definition type: Promote
+Return type: Culture
+
+-----------------------
+
+TopScope.sDynasty( Arg0 )
+Definition type: Promote
+Return type: Dynasty
+
+-----------------------
+
+TopScope.sFaction( Arg0 )
+Definition type: Promote
+Return type: Faction
+
+-----------------------
+
+TopScope.sFaith( Arg0 )
+Definition type: Promote
+Return type: Faith
+
+-----------------------
+
+TopScope.sGreatHolyWar( Arg0 )
+Definition type: Promote
+Return type: GreatHolyWar
+
+-----------------------
+
+TopScope.sHolyOrder( Arg0 )
+Definition type: Promote
+Return type: HolyOrder
+
+-----------------------
+
+TopScope.sHouse( Arg0 )
+Definition type: Promote
+Return type: DynastyHouse
+
+-----------------------
+
+TopScope.sMercenary( Arg0 )
+Definition type: Promote
+Return type: MercenaryCompany
+
+-----------------------
+
+TopScope.sProvince( Arg0 )
+Definition type: Promote
+Return type: Province
+
+-----------------------
+
+TopScope.sScheme( Arg0 )
+Definition type: Promote
+Return type: Scheme
+
+-----------------------
+
+TopScope.sSecret( Arg0 )
+Definition type: Promote
+Return type: Secret
+
+-----------------------
+
+TopScope.sTitle( Arg0 )
+Definition type: Promote
+Return type: Title
+
+-----------------------
+
+TopScope.sWar( Arg0 )
+Definition type: Promote
+Return type: War
+
+-----------------------
+
+TopScope.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.Custom( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.End
+Definition type: Function
+Return type: TopScope
+
+-----------------------
+
+TopScope.GetFlagName( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+TopScope.GetRootScope
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.GetScriptValueBreakdown( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.GetScriptValueDesc( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+TopScope.GetValue( Arg0 )
+Definition type: Function
+Return type: CFixedPoint
+
+-----------------------
+
+TopScope.ScriptValue( Arg0 )
+Definition type: Function
+Return type: CFixedPoint
+
+-----------------------
+
+TopScope.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.event_target:actor
+Definition type: Function
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:agent
+Definition type: Function
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:duel_target
+Definition type: Function
+Return type: Character
+
+-----------------------
+
+TopScope.event_target:recipient
+Definition type: Function
+Return type: Character
+
+-----------------------
+
+TopScope.sActivity( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sArmy( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sC( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sCB( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sCharacter( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sCombat( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sCombatSide( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sCulture( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sDynasty( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sFaction( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sFaith( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sGreatHolyWar( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sHolyOrder( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sHouse( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sMercenary( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sProvince( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sScheme( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sSecret( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sTitle( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+TopScope.sWar( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+War
+Definition type: Type
+
+-----------------------
+
+War.MakeScope
+Description: Jomini Script System
+Definition type: Function
+Return type: Scope
+
+-----------------------
+
