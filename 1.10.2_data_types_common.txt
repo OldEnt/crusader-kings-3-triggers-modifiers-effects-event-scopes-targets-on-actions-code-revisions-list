@@ -1,0 +1,1620 @@
+Application
+Definition type: Global promote
+Return type: Application
+
+-----------------------
+
+GetVariableSystem
+Description: Access the global variable system
+Definition type: Global promote
+Return type: VariableSystem
+
+-----------------------
+
+Abs_CFixedPoint( Arg0 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Abs_float( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Abs_int32( Arg0 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+AddLine( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+AddLocalizationIf( Arg0, Arg1 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+AddParagraph( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+AddTextIf( Arg0, Arg1 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+Add_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Add_CVector2f( Arg0, Arg1 )
+Definition type: Global function
+Return type: CVector2f
+
+-----------------------
+
+Add_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Add_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Add_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+And( Arg0, Arg1 )
+Description: If both arguments are true
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+BoolTo1And2( Arg0 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+BoolTo2And1( Arg0 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+CalcProgressBetweenDates( Arg0, Arg1, Arg2 )
+Description: Gets a % how far the current date is between the start and end date.
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+ConcatIfNeitherEmpty( Arg0, Arg1 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+Concatenate( Arg0, Arg1 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+CurrentAndMaxToProgressbarValueInt32( Arg0, Arg1 )
+Description: Get the progress (0.0-100.0) of CurrentArg to MaxArg. Value is clamped between 0 and 100.
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+DataModelFirst( Arg0, Arg1 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+DataModelHasItems( Arg0 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+DataModelLast( Arg0, Arg1 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+DataModelSkipFirst( Arg0, Arg1 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+DataModelSkipLast( Arg0, Arg1 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+DataModelSubSpan( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+DaysPerMonth
+Description: Average number of days per month, 30
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+DaysPerWeek
+Description: Number of days per week
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+DaysPerYear
+Description: Number of days per year, no leap years
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Divide_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Divide_CVector2f( Arg0, Arg1 )
+Definition type: Global function
+Return type: CVector2f
+
+-----------------------
+
+Divide_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Divide_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Divide_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+DoubleToFloat( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+EqualTo_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+EqualTo_CVector2f( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+EqualTo_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+EqualTo_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+EqualTo_string( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+EqualTo_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+FixedPointToFloat( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+FixedPointToInt( Arg0 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+FixedPointToProgressbarValue( Arg0 )
+Description: Convert to a progress percentage value (by multiplying with 100, unclamped).
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+GetDataModelSize( Arg0 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+GetDefine( Arg0, Arg1 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetDefineAtIndex( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetGameVersionDisplay
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetLocalizedDefine( Arg0, Arg1 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetLocalizedDefineAtIndex( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetNumberAbove_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+GetString_CPdxFloatRect( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CPdxIntRect( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CVector2f( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CVector2i( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CVector3f( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CVector3i( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CVector4f( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetString_CVector4i( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetTimeBetweenDates( Arg0, Arg1 )
+Description: Get a description of time between two dates, in days or months.
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetTimeDifferenceWithDays( Arg0 )
+Description: Get a description of X days into the future, in days or months.
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetTotalDaysInMonth( Arg0 )
+Description: Get the total number of days in a given month, 1 = january, 2 = february, etc
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+GreaterThanOrEqualTo_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThanOrEqualTo_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThanOrEqualTo_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThanOrEqualTo_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThan_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThan_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThan_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GreaterThan_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+HoursPerDay
+Description: Number of hours per days
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+InDebugMode
+Description: Is the game in Debug mode?
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+InReleaseMode
+Description: Is the game in Release mode?
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+IntToFixedPoint( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+IntToFloat( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+IntToFrameIndex( Arg0 )
+Description: Adds 1 to Arg1.
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+IntToUnsigned( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+IsDataModelEmpty( Arg0 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+IsDateAfter( Arg0, Arg1 )
+Description: Evaluate if the date is after the target date exclusive
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+IsDateBefore( Arg0, Arg1 )
+Description: Evaluate if the date is before the target date exclusive
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+IsDateBetween( Arg0, Arg1, Arg2 )
+Description: Evaluate if the first date is between the two other dates inclusive
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+IsValidDate( Arg0 )
+Description: Is this a valid date? (not the 'init date' of 0.0.-1)
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JoinText( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+LessThanOrEqualTo_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThanOrEqualTo_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThanOrEqualTo_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThanOrEqualTo_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThan_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThan_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThan_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+LessThan_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+Localize( Arg0 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+Max_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Max_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Max_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Max_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+Min_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Min_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Min_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Min_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+MonthsPerYear
+Description: Number of months per year
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Multiply_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Multiply_CVector2f( Arg0, Arg1 )
+Definition type: Global function
+Return type: CVector2f
+
+-----------------------
+
+Multiply_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Multiply_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Multiply_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+Nbsp
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+Negate_CFixedPoint( Arg0 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Negate_float( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Negate_int32( Arg0 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Not( Arg0 )
+Description: If the argument is not true
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+NotEqualTo_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+NotEqualTo_CVector2f( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+NotEqualTo_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+NotEqualTo_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+NotEqualTo_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+ObjectsEqual( Arg0, Arg1 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+Or( Arg0, Arg1 )
+Description: If either argument is true
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+SelectLocalization( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+Select_CFixedPoint( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Select_CString( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+Select_CVector2f( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CVector2f
+
+-----------------------
+
+Select_CVector2i( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CVector2i
+
+-----------------------
+
+Select_CVector3f( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CVector3f
+
+-----------------------
+
+Select_CVector3i( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CVector3i
+
+-----------------------
+
+Select_CVector4f( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CVector4f
+
+-----------------------
+
+Select_CVector4i( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: CVector4i
+
+-----------------------
+
+Select_float( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Select_int16( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: int16
+
+-----------------------
+
+Select_int32( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Select_int8( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: int8
+
+-----------------------
+
+Select_uint16( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: uint16
+
+-----------------------
+
+Select_uint32( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+Select_uint8( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: uint8
+
+-----------------------
+
+StringIsEmpty( Arg0 )
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+Subtract_CFixedPoint( Arg0, Arg1 )
+Definition type: Global function
+Return type: CFixedPoint
+
+-----------------------
+
+Subtract_CVector2f( Arg0, Arg1 )
+Definition type: Global function
+Return type: CVector2f
+
+-----------------------
+
+Subtract_float( Arg0, Arg1 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+Subtract_int32( Arg0, Arg1 )
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Subtract_uint32( Arg0, Arg1 )
+Definition type: Global function
+Return type: uint32
+
+-----------------------
+
+WeeksPerYear
+Description: Number of weeks per year
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+Application
+Definition type: Type
+
+-----------------------
+
+Application.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Application.Quit
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Application.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CFixedPoint
+Description: Number stored with 6 digits of precision.
+Definition type: Type
+
+-----------------------
+
+CFixedPoint.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CFixedPoint.GetFixedPoint
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CFixedPoint.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxFloatRect
+Description: Rectangle within an 2D float space.
+Definition type: Type
+
+-----------------------
+
+CPdxFloatRect.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxFloatRect.GetRect
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxFloatRect.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxIntRect
+Description: Rectangle within an 2D integer space.
+Definition type: Type
+
+-----------------------
+
+CPdxIntRect.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxIntRect.GetRect
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxIntRect.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CString
+Definition type: Type
+
+-----------------------
+
+CString.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CString.GetString
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CString.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CUTF8String
+Definition type: Type
+
+-----------------------
+
+CUTF8String.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CUTF8String.GetString
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CUTF8String.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector2f
+Description: Type containing two float numbers.
+Definition type: Type
+
+-----------------------
+
+CVector2f.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector2f.GetVector
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector2f.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector2i
+Description: Type containing two integer numbers.
+Definition type: Type
+
+-----------------------
+
+CVector2i.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector2i.GetVector
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector2i.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector3f
+Description: Type containing three float numbers.
+Definition type: Type
+
+-----------------------
+
+CVector3f.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector3f.GetVector
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector3f.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector3i
+Description: Type containing three integer numbers.
+Definition type: Type
+
+-----------------------
+
+CVector3i.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector3i.GetVector
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector3i.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector4f
+Description: Type containing four float numbers.
+Definition type: Type
+
+-----------------------
+
+CVector4f.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector4f.GetVector
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector4f.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector4i
+Description: Type containing four integer numbers.
+Definition type: Type
+
+-----------------------
+
+CVector4i.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector4i.GetVector
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CVector4i.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Date
+Description: Jomini Historical Date
+Definition type: Type
+
+-----------------------
+
+Date.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Date.GetDateAsTotalDays
+Description: Get the date as total number of days
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.GetDayOfMonth
+Description: Get the day of the month
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.GetDayOfWeek
+Description: Get the day of the week
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.GetDayOfYear
+Description: Get the day of the year
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.GetHourOfDay
+Description: Get the hour of the day
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.GetMonthOfYear
+Description: Get the month of the year
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.GetString
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetStringLong
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetStringShort
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetStringShortNoYear
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetTimeDiffFromNow
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetTimeDiffFromNowNoDays
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetTimeToDate
+Description: Get a description of time between now and this date, in days or months.
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Date.GetYear
+Description: Get the year
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Date.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Playable
+Description: Jomini Playable
+Definition type: Type
+
+-----------------------
+
+Playable.GetCharacter
+Definition type: Promote
+Return type: Character
+
+-----------------------
+
+Playable.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Playable.GetCharacter
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Playable.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+VariableSystem
+Definition type: Type
+
+-----------------------
+
+VariableSystem.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+VariableSystem.Clear( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+VariableSystem.ClearIf( Arg0, Arg1 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+VariableSystem.Exists( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+VariableSystem.Get( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+VariableSystem.HasValue( Arg0, Arg1 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+VariableSystem.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+VariableSystem.Set( Arg0, Arg1 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+VariableSystem.SetOrToggle( Arg0, Arg1 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+VariableSystem.Toggle( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+bool
+Definition type: Type
+
+-----------------------
+
+bool.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+bool.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+double
+Description: Number stored with `double float` precision.
+Definition type: Type
+
+-----------------------
+
+double.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+double.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+float
+Description: Number stored with `float` precision.
+Definition type: Type
+
+-----------------------
+
+float.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+float.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int16
+Definition type: Type
+
+-----------------------
+
+int16.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int16.GetInt
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int16.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int32
+Definition type: Type
+
+-----------------------
+
+int32.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int32.GetInt
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int32.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int64
+Definition type: Type
+
+-----------------------
+
+int64.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int64.GetInt
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int64.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int8
+Definition type: Type
+
+-----------------------
+
+int8.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int8.GetInt
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+int8.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint16
+Definition type: Type
+
+-----------------------
+
+uint16.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint16.GetUint
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint16.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint32
+Definition type: Type
+
+-----------------------
+
+uint32.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint32.GetUint
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint32.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint64
+Definition type: Type
+
+-----------------------
+
+uint64.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint64.GetUint
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint64.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint8
+Definition type: Type
+
+-----------------------
+
+uint8.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint8.GetUint
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+uint8.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+void
+Description: Unspecified type / empty type.
+Definition type: Type
+
+-----------------------
+
+void.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+void.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+

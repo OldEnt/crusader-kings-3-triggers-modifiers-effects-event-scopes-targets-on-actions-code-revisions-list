@@ -1,0 +1,4909 @@
+GetScriptedGui( Arg0 )
+Description: Jomini Scripted GUI - Get scripted GUI by name
+Definition type: Global promote
+Return type: ScriptedGui
+
+-----------------------
+
+GetServerInfo
+Description: Multiplayer - Server Info of current session
+Definition type: Global promote
+Return type: ServerInformation
+
+-----------------------
+
+GuiScope
+Description: Jomini Scripted GUI - Get GUI top jomini scope
+Definition type: Global promote
+Return type: TopScope
+
+-----------------------
+
+JominiPlayer
+Description: Jomini Script Systen - Get generic current playable object
+Definition type: Global promote
+Return type: Playable
+
+-----------------------
+
+BindFoldOutContext
+Description: Add a new PdxGuiFoldOut data context to a widget.
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+CanEditSettingsAfterHost
+Description: Multiplayer - If you can edit settings after hosting (depends on MP platform)
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+ClearHostError
+Description: Multiplayer - Clear host error
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+CopyServerID
+Description: Multiplayer - Copy Server ID of current session to clipboard
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+ExecuteConsoleCommand( Arg0 )
+Description: Execute a single console command with a given command.
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+ExecuteConsoleCommands( Arg0 )
+Description: Execute a sequence of console commands split by ';'. And stops the sequence execution if a console command fails.
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+ExecuteConsoleCommandsForced( Arg0 )
+Description: Execute a sequence of console commands split by ';'. Keeps the sequence execution even if a console command fails.
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+GetCanGoToFrontend
+Description: Multiplayer GUI - Can we go back to the frontend?
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GetCanGoToFrontendDesc
+Description: Multiplayer GUI - Message if we can't go back to the frontend
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GetEnumIndex( Arg0 )
+Description: Settings - Get the dropdown index of an enum setting.
+Definition type: Global function
+Return type: CVector2i
+
+-----------------------
+
+GetEthnicities
+Description: Portrait System - Get all Ethnicities
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetGuiPositionFromPercentCoordinates( Arg0, Arg1, Arg2 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetHostError
+Description: Multiplayer - Get host error
+Definition type: Global function
+Return type: CUTF8String
+
+-----------------------
+
+GetInvParentScale( Arg0 )
+Definition type: Global function
+Return type: float
+
+-----------------------
+
+GetIsChecked( Arg0 )
+Description: Settings - If the bool setting is checked
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+GetPlayersCount
+Description: Multiplayer - No of players of current session
+Definition type: Global function
+Return type: int32
+
+-----------------------
+
+GetPortraitTextureFromDna( Arg0, Arg1 )
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+GetStringSettingText( Arg0 )
+Description: Settings - Get the string setting text
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+GoToFrontend
+Description: Multiplayer GUI - Go back to the frontend
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+HasHostError
+Description: Multiplayer - Does the host have an error
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+IsPreparationLobby
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiAccessPlayerJoinRequests
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+JominiAreAchievementsAvailable
+Description: Jomini Achievements - Are achievements available?
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiGetAchievementsNotAvailableString
+Description: Jomini Achievements - Get text why achievements are not available
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+JominiGetMultiplayerAccessibleString
+Definition type: Global function
+Return type: CString
+
+-----------------------
+
+JominiHasPlayerJoinRequests
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiIsHostOrLocal
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiIsMultiplayerAccessible
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiMultiplayerIsCrossplayEnabled
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiMultiplayerIsCrossplayFilterAvailable
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+JominiPlayer
+Description: Jomini Script Systen - Get generic current playable object
+Definition type: Global function
+Return type: [unregistered]
+
+-----------------------
+
+NOP
+Description: No Operation (dummy callback function)
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+OnCreateAccount
+Description: POPS - Start the account creation flow
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+POPSStatusGetLoginStatus
+Definition type: Global function
+Return type: CUTF8String
+
+-----------------------
+
+POPSStatusIsAccountConnected
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+POPSStatusIsLoggedIn
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+POPSStatusIsLoggingIn
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+POPSStatusIsOffline
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+POPSStatusIsSupportConnectedAccount
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+POPStatusGetUserEmailMasked
+Definition type: Global function
+Return type: CUTF8String
+
+-----------------------
+
+POPStatusGetUserName
+Definition type: Global function
+Return type: CUTF8String
+
+-----------------------
+
+POPStatusIsUserNameEmpty
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+PdxClearEditBoxText( Arg0 )
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+PdxGetWidgetScreenSize( Arg0 )
+Definition type: Global function
+Return type: CVector2f
+
+-----------------------
+
+PdxGuiDestroyWidget( Arg0 )
+Description: Destroy widget
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+PlayerIsHost
+Description: Multiplayer GUI - Is the current player the host?
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+SelectEnumWithString( Arg0, Arg1 )
+Description: Settings - Select enum by string input
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+ShouldShowSegmentedControlForSetting( Arg0 )
+Description: Settings - Should show segmented control or not?
+Definition type: Global function
+Return type: bool
+
+-----------------------
+
+Unfocus( Arg0 )
+Description: Unfocus widget
+Definition type: Global function
+Return type: void
+
+-----------------------
+
+Achievement
+Description: Jomini Achievement
+Definition type: Type
+
+-----------------------
+
+Achievement.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Achievement.IsUnlocked
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Achievement.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementPopup
+Definition type: Type
+
+-----------------------
+
+AchievementPopup.AccessJustUnlockedAchievements
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementPopup.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementPopup.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementPopup.ShowWindow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AchievementWindow
+Description: Jomini Achievement Window
+Definition type: Type
+
+-----------------------
+
+AchievementWindow.AccessGroups
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementWindow.HasGameStarted
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+AchievementWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AchievementWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AchievementWindow.ShouldShowAll
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+AchievementWindow.ShouldShowLocked
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+AchievementWindow.ShouldShowPossible
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+AchievementWindow.ShouldShowUnlocked
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+AchievementWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AchievementWindow.ShowAll
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AchievementWindow.ShowLocked
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AchievementWindow.ShowPossible
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AchievementWindow.ShowUnlocked
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AddFriendWindow
+Description: Jomini Friends - Add Friends Window
+Definition type: Type
+
+-----------------------
+
+AddFriendWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AddFriendWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AddFriendWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AddFriendWindow.ShouldBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+AddFriendWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+AvailabilityEntry
+Description: Jomini Friend List - Availibility Entry
+Definition type: Type
+
+-----------------------
+
+AvailabilityEntry.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+AvailabilityEntry.GetAvailabilityString
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+AvailabilityEntry.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxInputBindingSetting
+Description: Jomini Settings - Rebindable Input Binding Setting
+Definition type: Type
+
+-----------------------
+
+CPdxInputBindingSetting.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CPdxInputBindingSetting.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Character
+Definition type: Type
+
+-----------------------
+
+Character.IsPartOfPlayerLegacy( Arg0 )
+Description: If this character is part of the player legacy (dynasty of played characters) of target character.
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Character.WasPlayer
+Description: If this character is, or was, played by a player.
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Chat
+Description: Jomini Chat - Chat
+Definition type: Type
+
+-----------------------
+
+Chat.GetReceiver
+Definition type: Promote
+Return type: Friend
+
+-----------------------
+
+Chat.AccessChatMessages
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Chat.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Chat.GetReceiver
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Chat.GetReceiverName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Chat.GetUnreadMessageCount
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Chat.HasUnreadMessages
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Chat.IsRoomChat
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Chat.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatMessage
+Description: Jomini Chat - Message
+Definition type: Type
+
+-----------------------
+
+ChatMessage.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatMessage.GetMessage
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+ChatMessage.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+ChatMessage.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatNotificationMessage
+Description: Jomini Chat - Notification message
+Definition type: Type
+
+-----------------------
+
+ChatNotificationMessage.ChatMessage
+Definition type: Promote
+Return type: ChatMessage
+
+-----------------------
+
+ChatNotificationMessage.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatNotificationMessage.ChatMessage
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatNotificationMessage.Kill
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ChatNotificationMessage.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatNotificationMessage.StartChat
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ChatTab
+Description: Jomini Chat - Tab
+Definition type: Type
+
+-----------------------
+
+ChatTab.GetChat
+Definition type: Promote
+Return type: Chat
+
+-----------------------
+
+ChatTab.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatTab.Activate
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ChatTab.Close
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ChatTab.GetChat
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatTab.GetChatTitle
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+ChatTab.IsActive
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ChatTab.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatWindow
+Description: Jomini Chat - Window
+Definition type: Type
+
+-----------------------
+
+ChatWindow.AccessChatTabs
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatWindow.CanSendMessage
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ChatWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ChatWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ChatWindow.SendMessage
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ChatWindow.ShouldBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ChatWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CoatOfArms
+Description: Coat of Arms Sprite
+Definition type: Type
+
+-----------------------
+
+CoatOfArms.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CoatOfArms.GetColor( Arg0 )
+Definition type: Function
+Return type: CVector4f
+
+-----------------------
+
+CoatOfArms.GetFrame( Arg0, Arg1 )
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+CoatOfArms.GetFrameWithEffect( Arg0, Arg1, Arg2 )
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+CoatOfArms.GetSlot( Arg0, Arg1 )
+Definition type: Function
+Return type: CVector4f
+
+-----------------------
+
+CoatOfArms.GetSlotWithEffect( Arg0, Arg1, Arg2 )
+Definition type: Function
+Return type: CVector4f
+
+-----------------------
+
+CoatOfArms.GetTexture( Arg0, Arg1 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CoatOfArms.GetTextureWithEffect( Arg0, Arg1, Arg2 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CoatOfArms.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CountryEntry
+Description: POPS Country Entry
+Definition type: Type
+
+-----------------------
+
+CountryEntry.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CountryEntry.GetCountry
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+CountryEntry.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CreateSocialProfile
+Description: Jomini Social Profile - Social profile
+Definition type: Type
+
+-----------------------
+
+CreateSocialProfile.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CreateSocialProfile.Create
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreateSocialProfile.GetErrorMessage
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+CreateSocialProfile.GetName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+CreateSocialProfile.IsCreatingProfile
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreateSocialProfile.IsValidName
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreateSocialProfile.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CreateSocialProfile.SetName
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreateSocialProfileWindow
+Description: Jomini Social Profile - Create window
+Definition type: Type
+
+-----------------------
+
+CreateSocialProfileWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CreateSocialProfileWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreateSocialProfileWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CreateSocialProfileWindow.ShouldBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreateSocialProfileWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreditsWindow
+Description: Jomini Credits Window
+Definition type: Type
+
+-----------------------
+
+CreditsWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+CreditsWindow.GetCredits
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+CreditsWindow.HasReachedEnd
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreditsWindow.IsFastest
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreditsWindow.IsPaused
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreditsWindow.IsSlowest
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+CreditsWindow.OnClose
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreditsWindow.OnFaster
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreditsWindow.OnSlower
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreditsWindow.OnTogglePause
+Definition type: Function
+Return type: void
+
+-----------------------
+
+CreditsWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia
+Description: Jomini Encyclopedia
+Definition type: Type
+
+-----------------------
+
+Encyclopedia.AccessCurrentPage
+Definition type: Promote
+Return type: EncyclopediaPage
+
+-----------------------
+
+Encyclopedia.GetAllPage
+Definition type: Promote
+Return type: EncyclopediaPage
+
+-----------------------
+
+Encyclopedia.GetCurrentPage
+Definition type: Promote
+Return type: EncyclopediaPage
+
+-----------------------
+
+Encyclopedia.AccessCurrentPage
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.AccessPages
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.CanFilterFromHistoryBack
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Encyclopedia.CanFilterFromHistoryForward
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Encyclopedia.FilterFromHistoryBack
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Encyclopedia.FilterFromHistoryForward
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Encyclopedia.GetAllPage
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.GetCurrentPage
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.GetPages
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.GetViewedEntries
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Encyclopedia.IsShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Encyclopedia.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Encyclopedia.SetCurrentPage( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Encyclopedia.ViewAllEntries
+Definition type: Function
+Return type: void
+
+-----------------------
+
+EncyclopediaEntry
+Description: Jomini Encyclopedia - Entry
+Definition type: Type
+
+-----------------------
+
+EncyclopediaEntry.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaEntry.GetBody
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+EncyclopediaEntry.GetFrame
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+EncyclopediaEntry.GetFrameSize
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+EncyclopediaEntry.GetImage
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaEntry.GetTitle
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+EncyclopediaEntry.HasImage
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+EncyclopediaEntry.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaEntryView
+Description: Jomini Encyclopedia - Entry View
+Definition type: Type
+
+-----------------------
+
+EncyclopediaEntryView.Get
+Definition type: Promote
+Return type: EncyclopediaEntry
+
+-----------------------
+
+EncyclopediaEntryView.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaEntryView.Get
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaEntryView.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaPage
+Description: Jomini Encyclopedia - Page
+Definition type: Type
+
+-----------------------
+
+EncyclopediaPage.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EncyclopediaPage.FilterFromText
+Definition type: Function
+Return type: void
+
+-----------------------
+
+EncyclopediaPage.GetTitle
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+EncyclopediaPage.ResetFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+EncyclopediaPage.SearchFromEnteredText
+Definition type: Function
+Return type: void
+
+-----------------------
+
+EncyclopediaPage.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EndPrepConfirm
+Description: Jomini Multiplayer - End preparation confirm
+Definition type: Type
+
+-----------------------
+
+EndPrepConfirm.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EndPrepConfirm.Cancel
+Definition type: Function
+Return type: void
+
+-----------------------
+
+EndPrepConfirm.Confirm
+Definition type: Function
+Return type: void
+
+-----------------------
+
+EndPrepConfirm.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EnumSettingEntry
+Description: Jomini Settings - Enum Setting
+Definition type: Type
+
+-----------------------
+
+EnumSettingEntry.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EnumSettingEntry.AccessSetting
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+EnumSettingEntry.GetEnumString
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+EnumSettingEntry.GetGUIName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+EnumSettingEntry.GetRecommendedText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+EnumSettingEntry.GetTooltip
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+EnumSettingEntry.IsSelected
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+EnumSettingEntry.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ErrorMessageBox
+Description: POPS Error Message Dialog
+Definition type: Type
+
+-----------------------
+
+ErrorMessageBox.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ErrorMessageBox.GetErrorMessage
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+ErrorMessageBox.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ErrorMessageBox.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ErrorMessageBox.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Ethnicity
+Description: Portrait System - Ethnicity
+Definition type: Type
+
+-----------------------
+
+Ethnicity.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Ethnicity.GetName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+Ethnicity.IsVisible
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Ethnicity.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friend
+Description: Jomini Friend List - Friend
+Definition type: Type
+
+-----------------------
+
+Friend.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friend.GetAvailabilityString
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Friend.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Friend.GetNameWithColor
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Friend.GetUnreadMessageCount
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Friend.HasUnreadMessages
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Friend.RemoveWithConfirmation
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Friend.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friend.StartChat
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendListWindow
+Description: Jomini Friend List - Friendlist window
+Definition type: Type
+
+-----------------------
+
+FriendListWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FriendListWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendListWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FriendListWindow.ShouldBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+FriendListWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendListWindow.ShowAddFriendWindow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendRequest
+Description: Jomini Friend List - FriendRequest
+Definition type: Type
+
+-----------------------
+
+FriendRequest.Accept
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendRequest.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FriendRequest.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+FriendRequest.Reject
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendRequest.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FriendSearchResult
+Description: Jomini Friends - Search Result
+Definition type: Type
+
+-----------------------
+
+FriendSearchResult.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FriendSearchResult.AddFriend
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FriendSearchResult.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+FriendSearchResult.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends
+Description: Jomini Friend List - Friends manager
+Definition type: Type
+
+-----------------------
+
+Friends.AccessAvailabilityEntries
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.AccessFriendRequests
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.AccessFriendSearchResults
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.AccessFriends
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.AccessOutgoingFriendRequests
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.CalcNumberOfOnlineFriends
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Friends.GetAvailabilityStringForLocalAccount
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Friends.GetLocalProfileName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Friends.GetSearchString
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Friends.GetSelectedAvailabilityEntryIndex
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+Friends.HasIngoingFriendRequests
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Friends.HasOutgoingFriendRequests
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Friends.Search
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Friends.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Friends.SetSearchString
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Friends.SetSelectedAvailabilityEntryIndex
+Definition type: Function
+Return type: void
+
+-----------------------
+
+Friends.UpdateFriends
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FrontEndCreditsView
+Description: Jomini Frontend Credits View
+Definition type: Type
+
+-----------------------
+
+FrontEndCreditsView.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FrontEndCreditsView.OnBack
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FrontEndCreditsView.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FrontEndMultiplayerView
+Description: Jomini Multiplayer - Frontendview
+Definition type: Type
+
+-----------------------
+
+FrontEndMultiplayerView.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+FrontEndMultiplayerView.OnBack
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FrontEndMultiplayerView.OnHost
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FrontEndMultiplayerView.OnLoad
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FrontEndMultiplayerView.OnNewGame
+Definition type: Function
+Return type: void
+
+-----------------------
+
+FrontEndMultiplayerView.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GUIAchievement
+Description: Jomini Achievement GUI
+Definition type: Type
+
+-----------------------
+
+GUIAchievement.GetAchievement
+Definition type: Promote
+Return type: Achievement
+
+-----------------------
+
+GUIAchievement.AccessLockedTexture
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GUIAchievement.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GUIAchievement.AccessTexture
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GUIAchievement.GetAchievement
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GUIAchievement.GetDescription
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+GUIAchievement.GetHappenedDescription
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+GUIAchievement.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+GUIAchievement.IsPossible
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+GUIAchievement.OnClick
+Definition type: Function
+Return type: void
+
+-----------------------
+
+GUIAchievement.Remove
+Definition type: Function
+Return type: void
+
+-----------------------
+
+GUIAchievement.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GeneCategory
+Description: Portrait System - Gene Category
+Definition type: Type
+
+-----------------------
+
+GeneCategory.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GeneCategory.GetName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+GeneCategory.IsOnlyVisibleFemale
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+GeneCategory.IsType( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+GeneCategory.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GeneCategory.ShowMorphGeneSlider
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+GeneTemplate
+Description: Portrait System - Gene Template
+Definition type: Type
+
+-----------------------
+
+GeneTemplate.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GeneTemplate.GetName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+GeneTemplate.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Group
+Description: Jomini Achievement Window - Group
+Definition type: Type
+
+-----------------------
+
+Group.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Group.AccessVisibleAchievements
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Group.CalcNumberOfUnlockedVisibleAchievements
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Group.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+Group.GetNumberOfVisibleAchievements
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Group.IsCollapsed
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+Group.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Group.ToggleCollapsed
+Definition type: Function
+Return type: void
+
+-----------------------
+
+GuiContext
+Description: GUI Context
+Definition type: Type
+
+-----------------------
+
+GuiContext.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+GuiContext.GetScreenResolution
+Definition type: Function
+Return type: CVector2f
+
+-----------------------
+
+GuiContext.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+InputActionBinding
+Description: Input Context Manager - Input Action
+Definition type: Type
+
+-----------------------
+
+InputActionBinding.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+InputActionBinding.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiGUISetting
+Description: Jomini Setting
+Definition type: Type
+
+-----------------------
+
+JominiGUISetting.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiGUISetting.GetDesc
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiGUISetting.HasChanged
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiGUISetting.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiGUISetting.ShouldShow
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiNotification
+Description: Jomini Notification Item
+Definition type: Type
+
+-----------------------
+
+JominiNotification.GetDate
+Definition type: Promote
+Return type: Date
+
+-----------------------
+
+JominiNotification.SetupDataContexts( Arg0 )
+Definition type: Promote
+Return type: NotificationDummyContext
+
+-----------------------
+
+JominiNotification.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotification.GetAcceptButtonText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiNotification.GetDate
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotification.GetDateOrTimestamp
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiNotification.GetDeclineButtonText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiNotification.GetText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiNotification.GetTimestamp
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiNotification.GetTitle
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiNotification.HasDate
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiNotification.HasOnAccept
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiNotification.HasOnDecline
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiNotification.OnAccept
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiNotification.OnDecline
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiNotification.OnNotificationClick
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiNotification.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotificationOverlay
+Definition type: Type
+
+-----------------------
+
+JominiNotificationOverlay.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotificationOverlay.GetAlertCount
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+JominiNotificationOverlay.GetAlerts
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotificationOverlay.GetNotificationCategoryCount( Arg0 )
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+JominiNotificationOverlay.GetNotificationCount
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+JominiNotificationOverlay.GetNotifications
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotificationOverlay.HideSidebar
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiNotificationOverlay.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiNotificationOverlay.ShowSidebar
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiNotificationOverlay.ToggleSidebar
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiPasswordPopup
+Description: Jomini Multiplayer - Password Popup
+Definition type: Type
+
+-----------------------
+
+JominiPasswordPopup.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiPasswordPopup.OnDecline
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiPasswordPopup.OnSubmit
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiPasswordPopup.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServer
+Description: Jomini Multiplayer - Server
+Definition type: Type
+
+-----------------------
+
+JominiServer.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServer.GetHasPassword
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServer.GetMaxPlayers
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+JominiServer.GetName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiServer.GetNumPlayers
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+JominiServer.GetStatus
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiServer.GetVersion
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiServer.IsSameVersion
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServer.Join
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServer.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServerBrowserGui
+Description: Jomini Multiplayer - Server Browser
+Definition type: Type
+
+-----------------------
+
+JominiServerBrowserGui.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServerBrowserGui.AccessServers
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServerBrowserGui.GetServers
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServerBrowserGui.IsCrossPlatformFilterSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsEmptyFilterSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsFullFilterSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsHasPasswordFilterSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsRefreshing
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsSameModsFilterSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsSameVersionFilterSet
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsSortAscending
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.IsSortedBy( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiServerBrowserGui.JoinServerWithId
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.OnFilterTextEdit
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.RefreshServers
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiServerBrowserGui.SetFilterText
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.SetServerId
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.Sort( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.ToggleCrossPlatformFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.ToggleEmptyFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.ToggleFullFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.ToggleHasPasswordFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.ToggleSameModsFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiServerBrowserGui.ToggleSameVersionFilter
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow
+Description: Jomini Settings Window
+Definition type: Type
+
+-----------------------
+
+JominiSettingsWindow.AccessActivePage
+Definition type: Promote
+Return type: SettingsPage
+
+-----------------------
+
+JominiSettingsWindow.AccessActivePage
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiSettingsWindow.AccessPages
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiSettingsWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiSettingsWindow.AllowApply
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.AppliedOnRestart
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.Close
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.GetInputActionName( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiSettingsWindow.GetInputBindingText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiSettingsWindow.GetInputProfileFileName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiSettingsWindow.GetKeyCodeName( Arg0, Arg1 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiSettingsWindow.GetWarningText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+JominiSettingsWindow.HasChanged
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.HasDefaultProfile
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.HasInputProfileFileName
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.IsCurrentActivePageId( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.IsInputPopUpEnabled
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.OnApply
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnClickCancel
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnClickClear
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnClickConfirm
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnClickLoadDefaultProfile
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnClickLoadProfile
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnClickSaveProfile
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.OnEditProfileFileName
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.RequireRestart
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.Restore
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.Save
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.SaveAndClose
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+JominiSettingsWindow.ShouldShowWarningText
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+JominiSettingsWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+JominiSettingsWindow.ShowInputPopUp( Arg0, Arg1, Arg2 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LanguageEntry
+Description: POPS Language Entry
+Definition type: Type
+
+-----------------------
+
+LanguageEntry.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LanguageEntry.GetLanguage
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+LanguageEntry.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyPlayer
+Description: Jomini Multiplayer - Lobby Player
+Definition type: Type
+
+-----------------------
+
+LobbyPlayer.GetLobbyView
+Definition type: Promote
+Return type: LobbyView
+
+-----------------------
+
+LobbyPlayer.GetPlayable
+Definition type: Promote
+Return type: Playable
+
+-----------------------
+
+LobbyPlayer.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyPlayer.CanRemovePlayer
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.GetID
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+LobbyPlayer.GetLoadingString
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyPlayer.GetName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyPlayer.GetTransferProgress
+Definition type: Function
+Return type: float
+
+-----------------------
+
+LobbyPlayer.HasPlayable
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.IsHost
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.IsHotjoining
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.IsLocalPlayer
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.IsObserver
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.IsReady
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyPlayer.RemovePlayer
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyPlayer.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyPlayer.ShowReadyStatus
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView
+Description: Multiplayer GUI - Lobby View
+Definition type: Type
+
+-----------------------
+
+LobbyView.AccessLocalPlayer
+Definition type: Promote
+Return type: LobbyPlayer
+
+-----------------------
+
+LobbyView.AccessSelectedPlayable
+Definition type: Promote
+Return type: Playable
+
+-----------------------
+
+LobbyView.GetSelectedPlayable
+Definition type: Promote
+Return type: Playable
+
+-----------------------
+
+LobbyView.GetServerInfo
+Definition type: Promote
+Return type: ServerInformation
+
+-----------------------
+
+LobbyView.AccessSelectedPlayable
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyView.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyView.CanControlSelected
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.CanGoBack
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.CanReady
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.CanStart
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.CanTryStartRulerDesigning( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.ClearSelection
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.ControlSelected
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.CopyServerID
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.GetControlToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.GetEnabledDLCs
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyView.GetEnabledMods
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyView.GetGoBackToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.GetOpenMultiplayerToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.GetOtherPlayersCount
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+LobbyView.GetReadyToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.GetSelectText
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.GetTryStartRulerDesigningDesc( Arg0 )
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.GoBack
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.HasEnabledDLCs
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.HasEnabledMods
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.HasGameConfigurationWindow
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.HasSelectedPlayable
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.HasServerInfo
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.IsAutoAccept
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.IsInvite
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.IsObserver
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.IsPublicCrossplay
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.IsPublicNoCrossplay
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.IsReady
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.OnNameEdit
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.OnPasswordEdit
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.OpenGameConfigurationWindow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.OpenMultiplayer
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.Players
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyView.Ready
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+LobbyView.SetInvite
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.SetName
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.SetPassword
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.SetPublicCrossplay
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.SetPublicNoCrossplay
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.SetShowPlayerList( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.ShouldShowEnabledDLCs
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.ShouldShowEnabledMods
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.ShowHosting
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.ShowModifyServer
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.ShowPlayerList
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+LobbyView.Start
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.StartToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+LobbyView.ToggleAutoAccept
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.ToggleObserve
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.ToggleShowEnabledDLCs
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.ToggleShowEnabledMods
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.ToggleVisibility
+Definition type: Function
+Return type: void
+
+-----------------------
+
+LobbyView.UnReady
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MPConfig
+Description: Jomini Multiplayer - Configuration
+Definition type: Type
+
+-----------------------
+
+MPConfig.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MPConfig.GetOfflinePlayerToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+MPConfig.GetPrivateToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+MPConfig.GetPublicToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+MPConfig.IsCrossplayChecked
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MPConfig.IsHotjoinAutoAccept
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MPConfig.IsOffline
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MPConfig.IsPrivate
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MPConfig.IsPublic
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MPConfig.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MPConfig.SetOffline
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MPConfig.SetPrivate
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MPConfig.SetPublic
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MPConfig.ToggleCrossplay
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MPConfig.ToggleHotjoinAutoAccept
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MultiplayerSetupWindow
+Description: Jomini Multiplayer - Setup window
+Definition type: Type
+
+-----------------------
+
+MultiplayerSetupWindow.AccessMPConfig
+Definition type: Promote
+Return type: MPConfig
+
+-----------------------
+
+MultiplayerSetupWindow.GetMPConfig
+Definition type: Promote
+Return type: MPConfig
+
+-----------------------
+
+MultiplayerSetupWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MultiplayerSetupWindow.CanHost
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MultiplayerSetupWindow.Cancel
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MultiplayerSetupWindow.GetDefaultServerName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+MultiplayerSetupWindow.GetDefaultServerPassword
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+MultiplayerSetupWindow.Host
+Definition type: Function
+Return type: void
+
+-----------------------
+
+MultiplayerSetupWindow.HostToolTip
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+MultiplayerSetupWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MultiplayerSetupWindow.ShouldShowMPConfig
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+MusicPlayerCategory
+Definition type: Type
+
+-----------------------
+
+MusicPlayerCategory.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MusicPlayerCategory.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MusicTrack
+Definition type: Type
+
+-----------------------
+
+MusicTrack.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+MusicTrack.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+NotificationDummyContext
+Description: Jomini Notification Dummy Context
+Definition type: Type
+
+-----------------------
+
+NotificationDummyContext.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+NotificationDummyContext.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OosData
+Description: Jomini Multiplayer - Out-of-sync data
+Definition type: Type
+
+-----------------------
+
+OosData.GetPlayable
+Definition type: Promote
+Return type: Playable
+
+-----------------------
+
+OosData.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OosData.GetFolder
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+OosData.GetPlayerName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+OosData.GetType
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+OosData.IsLocalPlayer
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+OosData.IsObserver
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+OosData.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OosWindow
+Description: Jomini Multiplayer - Out-of-sync window
+Definition type: Type
+
+-----------------------
+
+OosWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OosWindow.Close
+Definition type: Function
+Return type: void
+
+-----------------------
+
+OosWindow.Continue
+Definition type: Function
+Return type: void
+
+-----------------------
+
+OosWindow.GetOosData
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OosWindow.GoToMenu
+Definition type: Function
+Return type: void
+
+-----------------------
+
+OosWindow.IsLocalOos
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+OosWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OutgoingFriendRequest
+Description: Jomini Friend List - Outgoing friend request
+Definition type: Type
+
+-----------------------
+
+OutgoingFriendRequest.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+OutgoingFriendRequest.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+OutgoingFriendRequest.Remove
+Definition type: Function
+Return type: void
+
+-----------------------
+
+OutgoingFriendRequest.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount
+Description: POPS Create Account View
+Definition type: Type
+
+-----------------------
+
+POPSCreateAccount.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.CanCreateAccount
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSCreateAccount.CreateAccount
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSCreateAccount.GetAddressLineOne
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetAddressLineTwo
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetCity
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetCountries
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.GetCreatedAccount
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSCreateAccount.GetDays
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.GetEmail
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetErrorMessage
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetFirstName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetLanguages
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.GetLastName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetMonths
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.GetOptedIntoMarketingChecked
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSCreateAccount.GetPassword
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetPhone
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetSelectedCountryIndex
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+POPSCreateAccount.GetSelectedDayIndex
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+POPSCreateAccount.GetSelectedLanguageIndex
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+POPSCreateAccount.GetSelectedMonthIndex
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+POPSCreateAccount.GetSelectedYearIndex
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+POPSCreateAccount.GetState
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.GetYears
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.GetZipCode
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSCreateAccount.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.IsCreatingAccount
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSCreateAccount.OnCountryChanged
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.OnDayChanged
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.OnLanguageChanged
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.OnMonthChanged
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.OnOptedIntoMarketingToggled
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.OnYearChanged
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSCreateAccount.SetAddressLineOne
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetAddressLineTwo
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetCity
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetEmail
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetFirstName
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetLastName
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetPassword
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetPhone
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetState
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.SetZipCode
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.ShowPP
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSCreateAccount.ShowToU
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView
+Description: POPS Login View
+Definition type: Type
+
+-----------------------
+
+POPSLoginView.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSLoginView.GetEmail
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSLoginView.GetErrorMessage
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSLoginView.GetLoginString
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSLoginView.GetPassword
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+POPSLoginView.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.IsChangingUserName
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsConnectingAccount
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsEmailSent
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsEmptyUserNamePrompt
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsLoggedIn
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsLogin
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsRestoringPassword
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsSuccessfulSetName
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.IsValidLoginInfo
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSLoginView.Login
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.Logout
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.OnUserNameChange
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.ResetPassword
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSLoginView.SetEmail
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.SetPassword
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.SetState( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.SetUserName
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSLoginView.ToggleConnected
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget
+Description: POPS Status Widget
+Definition type: Type
+
+-----------------------
+
+POPSStatusWidget.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSStatusWidget.ConnectAccount
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.DisconnectAccount
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.IsAccountConnected
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSStatusWidget.IsBusy
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSStatusWidget.Logout
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+POPSStatusWidget.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.SupportsConnectAccount
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+POPSStatusWidget.ToggleCreateAccountWindow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.ToggleCreateProfileWindow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+POPSStatusWidget.ToggleLoginWindow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiFoldOut
+Description: Foldable Item
+Definition type: Type
+
+-----------------------
+
+PdxGuiFoldOut.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiFoldOut.Fold
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiFoldOut.IsFolded
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiFoldOut.IsUnfolded
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiFoldOut.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiFoldOut.SetFoldState
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiFoldOut.Toggle
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiFoldOut.Unfold
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiGfxVideoControl
+Definition type: Type
+
+-----------------------
+
+PdxGuiGfxVideoControl.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiGfxVideoControl.IsLooping
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiGfxVideoControl.IsPlaybackComplete
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiGfxVideoControl.IsPlaying
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiGfxVideoControl.Restart
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiGfxVideoControl.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiGfxVideoControl.SetLooping( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiGfxVideoControl.Start
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiGfxVideoControl.Stop
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiTableRow
+Description: Generic Tree Table - Row
+Definition type: Type
+
+-----------------------
+
+PdxGuiTableRow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiTableRow.GetIndex
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PdxGuiTableRow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiTreeTable
+Description: Generic Tree-Table
+Definition type: Type
+
+-----------------------
+
+PdxGuiTreeTable.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiTreeTable.CanExpand( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiTreeTable.Expand( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiTreeTable.GetDepth( Arg0 )
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PdxGuiTreeTable.GetIndent( Arg0, Arg1 )
+Definition type: Function
+Return type: CVector2f
+
+-----------------------
+
+PdxGuiTreeTable.GetNumChildren( Arg0 )
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PdxGuiTreeTable.IsExpanded( Arg0 )
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiTreeTable.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiTreeTable.ToggleExpand( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiTreeTable.Unexpand( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget
+Description: GUI Widget
+Definition type: Type
+
+-----------------------
+
+PdxGuiWidget.AccessChild( Arg0 )
+Definition type: Promote
+Return type: PdxGuiWidget
+
+-----------------------
+
+PdxGuiWidget.AccessParent
+Definition type: Promote
+Return type: PdxGuiWidget
+
+-----------------------
+
+PdxGuiWidget.FindChild( Arg0 )
+Definition type: Promote
+Return type: PdxGuiWidget
+
+-----------------------
+
+PdxGuiWidget.GfxVideoControl
+Definition type: Promote
+Return type: PdxGuiGfxVideoControl
+
+-----------------------
+
+PdxGuiWidget.AccessParent
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiWidget.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiWidget.CountVisibleChildren
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PdxGuiWidget.FindChild( Arg0 )
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiWidget.GetChildrenCount
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PdxGuiWidget.GetIndexInDataModel
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PdxGuiWidget.GetRawShortcut
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+PdxGuiWidget.GetScaledMousePosition
+Definition type: Function
+Return type: CVector2f
+
+-----------------------
+
+PdxGuiWidget.GetShortcut
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+PdxGuiWidget.GetTooltipLockProgress
+Definition type: Function
+Return type: float
+
+-----------------------
+
+PdxGuiWidget.GetUnscaledMousePositionInteger
+Definition type: Function
+Return type: CVector2i
+
+-----------------------
+
+PdxGuiWidget.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget.InterruptAnimation( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget.InterruptThenTriggerAnimation( Arg0, Arg1 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget.IsNestedTooltip
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiWidget.IsTooltipLocked
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PdxGuiWidget.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PdxGuiWidget.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget.StackBottom
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget.StackTop
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PdxGuiWidget.TriggerAnimation( Arg0 )
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PlayerJoinRequest
+Description: Jomini Multiplayer - Player Join Request
+Definition type: Type
+
+-----------------------
+
+PlayerJoinRequest.Accept
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PlayerJoinRequest.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PlayerJoinRequest.GetPlayerName
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+PlayerJoinRequest.Reject
+Definition type: Function
+Return type: void
+
+-----------------------
+
+PlayerJoinRequest.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PlotLine
+Definition type: Type
+
+-----------------------
+
+PlotLine.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PlotLine.GetInterpolatedIndexNearMouse
+Definition type: Function
+Return type: float
+
+-----------------------
+
+PlotLine.GetInterpolatedValueNearMouse
+Definition type: Function
+Return type: CVector2f
+
+-----------------------
+
+PlotLine.GetPlotRect
+Definition type: Function
+Return type: CPdxFloatRect
+
+-----------------------
+
+PlotLine.GetSnappedIndexNearMouse
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+PlotLine.GetSnappedValueNearMouse
+Definition type: Function
+Return type: CVector2f
+
+-----------------------
+
+PlotLine.HasPositionNearMouse
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+PlotLine.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PortraitTooltip
+Description: Portrait Tooltip
+Definition type: Type
+
+-----------------------
+
+PortraitTooltip.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+PortraitTooltip.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+RemoveFriendConfirmWindow
+Description: Jomini Friend List - Remove friend confirm window
+Definition type: Type
+
+-----------------------
+
+RemoveFriendConfirmWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+RemoveFriendConfirmWindow.ConfirmRemove
+Definition type: Function
+Return type: void
+
+-----------------------
+
+RemoveFriendConfirmWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+RemoveFriendConfirmWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+RemoveFriendConfirmWindow.ShouldBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+RemoveFriendConfirmWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+ServerInformation
+Definition type: Type
+
+-----------------------
+
+ServerInformation.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+ServerInformation.GetMPMode
+Definition type: Function
+Return type: CString
+
+-----------------------
+
+ServerInformation.GetServerID
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+ServerInformation.GetServerName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+ServerInformation.HasServerID
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ServerInformation.HasServerName
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ServerInformation.IsInvite
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ServerInformation.IsPublic
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ServerInformation.IsSingleplayer
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+ServerInformation.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SettingCategory
+Description: Jomini Settings - Category
+Definition type: Type
+
+-----------------------
+
+SettingCategory.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SettingCategory.AccessSettingsOrder
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SettingCategory.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+SettingCategory.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SettingsPage
+Description: Jomini Settings - Settings Page
+Definition type: Type
+
+-----------------------
+
+SettingsPage.AccessCategories
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SettingsPage.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SettingsPage.GetName
+Definition type: Function
+Return type: CUTF8String
+
+-----------------------
+
+SettingsPage.IsSelected
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+SettingsPage.OnClick
+Definition type: Function
+Return type: void
+
+-----------------------
+
+SettingsPage.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Social
+Description: Jomini Social Manager
+Definition type: Type
+
+-----------------------
+
+Social.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+Social.GetTotalUnreadChatMessages
+Definition type: Function
+Return type: int32
+
+-----------------------
+
+Social.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialNotificationWindow
+Description: Jomini Friend List - Notification window
+Definition type: Type
+
+-----------------------
+
+SocialNotificationWindow.AccessChatMessages
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialNotificationWindow.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialNotificationWindow.GetNotificationsLayoutAnchor
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialNotificationWindow.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+SocialNotificationWindow.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialNotificationWindow.ShouldBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+SocialNotificationWindow.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+SocialUI
+Description: Jomini Friend List - Social UI
+Definition type: Type
+
+-----------------------
+
+SocialUI.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialUI.Hide
+Definition type: Function
+Return type: void
+
+-----------------------
+
+SocialUI.IsAllowedToBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+SocialUI.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialUI.Show
+Definition type: Function
+Return type: void
+
+-----------------------
+
+SocialUI.ToggleShow
+Definition type: Function
+Return type: void
+
+-----------------------
+
+SocialUI.WantsToBeShown
+Definition type: Function
+Return type: bool
+
+-----------------------
+
+SocialWidget
+Description: Jomini Social Widget
+Definition type: Type
+
+-----------------------
+
+SocialWidget.AccessSelf
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
+SocialWidget.Self
+Definition type: Function
+Return type: [unregistered]
+
+-----------------------
+
